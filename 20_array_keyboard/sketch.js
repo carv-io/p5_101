@@ -2,12 +2,14 @@ var ballArr = []; // here we define an empty array variable
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+background(0);
+
   // not much to do in setup, because all of the objects will
   // only show up based on a user action
 }
 
 function draw(){
-  background(0);
+  // background(0);
 
   // this entire loop runs on every frame, 60FPS.
   for (let i = 0; i < ballArr.length; i++){ // while the array starts as empty
@@ -53,13 +55,13 @@ function Ball(x, y){   // this is one way to define an "object" in JavaScript, i
   }
 
   this.colorize = function(){
-      this.clr = color(random(0,255), random(0,100), 100); // set a random color per ball
+      this.clr = color(random(0,255), random(0,100), 100, 50); // set a random color per ball
   }
 
   this.make = function (){
       fill(this.clr, 95);
       stroke(150);
-      strokeWeight(2);
+      strokeWeight(.5);
       ellipse(this.xPos, this.yPos, this.size);
   }
 }
