@@ -13,7 +13,7 @@ function setup() {
   background(bgColor);
 
   // here we'll set the various RGB values by manipulating the variables value:
-  background(bgColor, bgColor + 30, bgColor -30);
+//  background(bgColor, bgColor + 30, bgColor -30);
 
   // this corresponds to
   // background(140, 170, 110); which has highest "G" value so looks green.

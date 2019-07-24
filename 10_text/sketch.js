@@ -15,15 +15,15 @@ function setup() {
 function draw(){
     background(50); // note, in order for the text to display "clean"
                     // we need to redraw the background on every frame
-    x++;
+    // x++;
 
     // fill(200, 0, 155); // sets the color of the font to pink (PRETTY COOL)
     fill(200, 0, x/2); // here the color shifts (WHOA)
 
-    // textSize(250); // sets the text size to a specific size (GOOD ENOUGH)
-    textSize(x); // here the font size changes over time!
+    textSize(250); // sets the text size to a specific size (GOOD ENOUGH)
+    // textSize(x); // here the font size changes over time!
 
-    // text(x, 100, 400); // fixes the position of the text (BORING)
-    text(x, x, 400); // sets the text in motion (COOL)
+    text(x, 100, 400); // fixes the position of the text (BORING)
+    // text(x, x, 400); // sets the text in motion (COOL)
 
 }

@@ -3,21 +3,19 @@
 
 var x = 100;
 var angle = 90; // the rotate function will require an angle, which we'll set to 90 degrees
-                // problem is, 90 isn't really 90 degrees by default
-                // this is because by default P5 degrees are counted in RADIANS
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   fill(200, 0, 155);
   textSize(250);
-  // angleMode(DEGREES); // to fix this, we can use P5's "angleMode" function and set it to degrees, which will fix it.
+  angleMode(DEGREES);
 }
 
 function draw(){
     background(51);
     x++;
-    // angle = angle + .01; // if we want create continuous rotation, we can increment the angle by an amount
-    // angle = mouseX / 100; // or if we want to rotate as a function of mouse position.
+    // angle++; // if we want create continuous rotation, we can increment the angle by an amount
+    // angle = mouseX / 5; // or if we want to rotate as a function of mouse position.
     translate(width/2, height/2); // we need to translate the frame of reference to a specific spot within the canvas
                                   // otherwise, rotation will occur from 0, 0 (upper left)
                                   // coordinates, which is a weird place to rotate!

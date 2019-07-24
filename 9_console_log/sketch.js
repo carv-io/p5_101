@@ -7,12 +7,11 @@ function setup() {
 
   createCanvas(windowWidth, windowHeight);
   background(50);
-  console.log(x); // here we display the output of the initial value of x in the console
+  //console.log(x); // here we display the output of the initial value of x in the console
 
 }
 
 function draw(){
     x = x + 100;
-    // console.log(x); // here we display the ever-changing value
-
+    console.log(x); // here we display the ever-changing value
 }

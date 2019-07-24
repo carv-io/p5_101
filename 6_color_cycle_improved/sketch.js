@@ -5,13 +5,12 @@ var bgColor = 100;
 var colorDirection = "UP";
 
 function setup() {
-
+  //createCanvas(800, 500); - normally createCanvas goes in setup
 }
 
 function draw(){
   createCanvas(800, 500);
   background(bgColor, bgColor + 30, bgColor - 30);
-
 
 // So, one way to do this is a bit crude, but it's helpful to consider
 // since it allows us to look at some standard "program flow controls"

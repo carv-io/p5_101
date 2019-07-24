@@ -4,7 +4,7 @@
 
 function setup() {
   createCanvas(800, 500); // first we need to create a canvas
-  background(0); // then we need to give make it visible with a background
+  // background(0); // then we need to give make it visible with a background
 
   // or RED!
   // background('red');
@@ -13,6 +13,6 @@ function setup() {
   // background(255, 0, 0);
 
   // or some randomized colors
-  // background(random(0, 255), random(0, 255), random(0, 255));
+  background(random(0, 255), random(0, 255), random(0, 255));
 
 }

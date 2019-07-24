@@ -17,9 +17,9 @@ function setup() {
 function draw(){
   background(50);
   // drawAxes();
-  // drawTicks();
+  drawTicks();
 
-  // drawLine();
+  drawLine();
   sineWave();
   drawCircle();
   // drawParabola();

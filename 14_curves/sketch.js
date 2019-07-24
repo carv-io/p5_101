@@ -23,16 +23,16 @@ function draw(){
   background(50);
 
   // set the control points
-  // let cp1x = 250;
-  // let cp1y = 100;
-  // let cp2x = 600;
-  // let cp2y = 100;
+  let cp1x = 250;
+  let cp1y = 100;
+  let cp2x = 600;
+  let cp2y = 100;
 
   // set the control points to be determined by mouse position
-  let cp1x = mouseX - 150;
-  let cp1y = mouseY;
-  let cp2x = mouseX + 150;
-  let cp2y = mouseY;
+  // let cp1x = mouseX - 150;
+  // let cp1y = mouseY;
+  // let cp2x = mouseX + 150;
+  // let cp2y = mouseY;
 
   // these lines are like the "handles" for the bezier curve
   stroke(100);

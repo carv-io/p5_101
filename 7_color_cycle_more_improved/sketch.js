@@ -8,8 +8,8 @@ var i = 2;
 
 function setup() {
 
-  angleMode(DEGREES);
-
+  angleMode(DEGREES); // this is nice if you want to work in degrees
+                      // instead of the default which is Radians
 }
 
 function draw(){

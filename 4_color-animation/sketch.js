@@ -4,8 +4,9 @@
 var bgColor = 140;
 
 function setup() {
-
+  //createCanvas(800, 500); - normally createCanvas goes in setup
 }
+
 
 function draw(){
   // so at first, it seems like there is no difference

@@ -1,7 +1,6 @@
 // That was cool, but now we're going to make the color change a bit more interesting
 // with some logic that cycles the value so that it doesn't simply bleed to white
 
-
 var bgColor = 140;
 
 // Note - we don't need a setup here, since we're creating the canvas in the draw function.
